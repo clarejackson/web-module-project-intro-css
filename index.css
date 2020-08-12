@@ -53,6 +53,7 @@ table {
 
 html {
 	font-size: 62.5%;
+	box-sizing: border-box;
 	}
 
  header h1 {
@@ -65,19 +66,19 @@ html {
 	font-size: 3rem;
 }
 
-p {
+p, h2 {
 	text-align: center;
 }
 
-.header-section {
-	float: right;
-	width: 70%;
+div.header-section {
+	vertical-align: baseline
 }
 
 .header-img {
 	border-radius: 50%;
 	width: 250px;
 	margin: 10%;
+	vertical-align: baseline
 }
 
 .camp-fire {
@@ -95,15 +96,19 @@ p {
 
 .footer-img {
 	width: 100%;
-	height: 1%;
+	object-fit: none;
+	height: 200px;
+	overflow: hidden;
+	object-position: 0 18%;
 }
 
 nav ul li {
+margin-left: auto;
+margin-right: auto;
 	display: inline-block;
- margin: 10%;
 }
 
-nav ul .plan-nav {
+nav ul li.plan-nav {
 	background-color: #FF764E;
 	font-size: 1.8rem;
 	border-radius: 10px;
@@ -113,7 +118,7 @@ nav ul .plan-nav {
 	text-align: center;
 }
 
-nav ul .about-nav {
+nav ul li.about-nav {
 	background-color: #5ED3EB;
 	font-size: 1.8rem;
 	border-radius: 10px;
@@ -123,7 +128,7 @@ nav ul .about-nav {
 	text-align: center;
 }
 
-nav ul .involved-nav {
+nav ul li.involved-nav {
 	background-color: #FFCD69;
 	font-size: 1.8rem;
 	word-wrap: break-word;
@@ -134,17 +139,43 @@ nav ul .involved-nav {
 	text-align: center;
 }
 
-.park-beauty {
+main.park-beauty {
 	background-color: #DDB9A3;
-	margin: 10%;
+	margin: 5%;
 	font-size: 2rem;
+	padding: 1%;
+	color: white;
 }
 	section p {
-		font-size: 2rem;
+		font-size: 1rem;
+	}
+
+	p.fire-info  {
+		width: 20%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 2%;
+		padding-bottom: 4%;
+	}
+
+	p.fire-info a {
+		font-weight: bold;
+	}
+	
+	p.park-fee  {
+		width: 20%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 2%;
+		padding-bottom: 4%;
+	}
+
+	p.park-fee a {
+		font-weight: bold;
 	}
 
 
 footer {
 	background-color: #F9E7DC;
-	
+	padding: 2%;
 }
