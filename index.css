@@ -59,32 +59,42 @@ html {
  header h1 {
 	font-family: 'Chelsea Market', cursive;
 	font-size: 5rem;
+	margin: 1%;
+	padding: 1%;
 	}
 
  div.header-paragraphs {
 	font-family: 'Roboto Mono', monospace;
-	font-size: 3rem;
+	font-size: 2rem;
 }
 
-p, h2 {
+p, h1, h2 {
 	text-align: center;
 }
 
-div.header-section {
-	vertical-align: baseline
+.header-section {
+	display: inline-block;
+	width: 60%;
+	vertical-align:100px;
+	margin-left: 5%;
+	
 }
 
 .header-img {
 	border-radius: 50%;
-	width: 250px;
-	margin: 10%;
-	vertical-align: baseline
+	width: 20%;
+	margin: 1%;
+	display: inline-block;
+
 }
+
+
+
 
 .camp-fire {
 	width: 10%;
-	display: block;
 	margin: auto;
+	display: block;
 }
 
 .camp-vehicle {
@@ -103,17 +113,19 @@ div.header-section {
 }
 
 nav ul li {
-margin-left: auto;
-margin-right: auto;
-	display: inline-block;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 1%;
+display: inline-block;
 }
 
 nav ul li.plan-nav {
 	background-color: #FF764E;
 	font-size: 1.8rem;
 	border-radius: 10px;
-	padding: 10px;
-	width: 100px;
+	padding: .75%;
+	width: 120px;
+	height: 35px;
 	color: white;
 	text-align: center;
 }
@@ -122,8 +134,9 @@ nav ul li.about-nav {
 	background-color: #5ED3EB;
 	font-size: 1.8rem;
 	border-radius: 10px;
-	padding: 10px;
-	width: 150px;
+	padding: .75%;
+	width: 120px;
+	height: 35px;
 	color: white;
 	text-align: center;
 }
@@ -133,8 +146,9 @@ nav ul li.involved-nav {
 	font-size: 1.8rem;
 	word-wrap: break-word;
 	border-radius: 10px;
-	padding: 10px;
-	width: 100px;
+	padding: .75%;
+	width: 120px;
+	height: 35px;
 	color: white;
 	text-align: center;
 }
@@ -145,8 +159,9 @@ main.park-beauty {
 	font-size: 2rem;
 	padding: 1%;
 	color: white;
+	display: block;
 }
-	section p {
+	section + p {
 		font-size: 1rem;
 	}
 
@@ -156,18 +171,20 @@ main.park-beauty {
 		margin-right: auto;
 		padding-top: 2%;
 		padding-bottom: 4%;
+		display: block;
 	}
 
 	p.fire-info a {
 		font-weight: bold;
 	}
-	
+
 	p.park-fee  {
 		width: 20%;
 		margin-left: auto;
 		margin-right: auto;
 		padding-top: 2%;
 		padding-bottom: 4%;
+		display: block;
 	}
 
 	p.park-fee a {
