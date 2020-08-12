@@ -1,0 +1,213 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* body {
+	font-family: 'Roboto Mono', monospace;
+}
+
+html {
+	font-size: 62.5%;
+	box-sizing: border-box;
+	}
+
+ header h1 {
+	font-family: 'Chelsea Market', cursive;
+	font-size: 5rem;
+	margin: 2%;
+	padding: 1%;
+	
+	}
+
+ div.header-paragraphs {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 1.75rem;
+}
+
+p, h1, h2 {
+	text-align: center;
+}
+
+.header-section {
+	display: inline-block;
+	width: 60%;
+	vertical-align:100px;
+	margin-left: 5%;
+}
+
+
+
+.header-img {
+	border-radius: 50%;
+	width: 20%;
+	margin: 3% 5%;
+	display: inline-block;
+}
+
+h2 {
+	border: 1%;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 3%;
+	margin-bottom: 3%;
+}
+
+h2:last-child {
+padding-left: 20%;
+padding-right: 20%;
+margin-top: 5%;
+}
+
+.camp-fire {
+	width: 10%;
+	margin: auto;
+	display: block;
+padding-top: 2%;
+}
+
+.camp-vehicle {
+	width: 10%;
+	height: 10%;
+	display: block;
+	margin: auto;
+}
+
+.footer-img {
+	width: 100%;
+	object-fit: none;
+	height: 200px;
+	overflow: hidden;
+	object-position: 0 18%;
+}
+
+nav ul li {
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 1%;
+display: inline-block;
+}
+
+nav ul li.plan-nav {
+	background-color: #FF764E;
+	font-size: 1.8rem;
+	border-radius: 10px;
+	padding: .75%;
+	width: 120px;
+	height: 35px;
+	color: white;
+	text-align: center;
+}
+
+nav ul li.about-nav {
+	background-color: #5ED3EB;
+	font-size: 1.8rem;
+	border-radius: 10px;
+	padding: .75%;
+	width: 120px;
+	height: 35px;
+	color: white;
+	text-align: center;
+}
+
+nav ul li.involved-nav {
+	background-color: #FFCD69;
+	font-size: 1.8rem;
+	word-wrap: break-word;
+	border-radius: 10px;
+	padding: .75%;
+	width: 120px;
+	height: 35px;
+	color: white;
+	text-align: center;
+}
+
+main.park-beauty {
+	background-color: #DDB9A3;
+	margin: 0 3%;
+	font-size: 1.75rem;
+	padding: 1%;
+	color: white;
+	display: block;
+}
+	section + p {
+		font-size: 1rem;
+	}
+
+	p.fire-info  {
+		width: 25%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 2%;
+		padding-bottom: 4%;
+		display: block;
+		font-size: 1.25rem;
+	}
+
+	p.fire-info a {
+		font-weight: bold;
+	}
+
+	p.park-fee  {
+		width: 25%;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 2%;
+		padding-bottom: 4%;
+		display: block;
+		font-size: 1.25rem;
+	}
+
+	p.park-fee a {
+		font-weight: bold;
+	}
+
+
+footer {
+	background-color: #F9E7DC;
+	padding: 2%;
+}
