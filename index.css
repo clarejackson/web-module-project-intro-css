@@ -46,3 +46,105 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+
+* body {
+	font-family: 'Roboto Mono', monospace;
+}
+
+html {
+	font-size: 62.5%;
+	}
+
+ header h1 {
+	font-family: 'Chelsea Market', cursive;
+	font-size: 5rem;
+	}
+
+ div.header-paragraphs {
+	font-family: 'Roboto Mono', monospace;
+	font-size: 3rem;
+}
+
+p {
+	text-align: center;
+}
+
+.header-section {
+	float: right;
+	width: 70%;
+}
+
+.header-img {
+	border-radius: 50%;
+	width: 250px;
+	margin: 10%;
+}
+
+.camp-fire {
+	width: 10%;
+	display: block;
+	margin: auto;
+}
+
+.camp-vehicle {
+	width: 10%;
+	height: 10%;
+	display: block;
+	margin: auto;
+}
+
+.footer-img {
+	width: 100%;
+	height: 1%;
+}
+
+nav ul li {
+	display: inline-block;
+ margin: 10%;
+}
+
+nav ul .plan-nav {
+	background-color: #FF764E;
+	font-size: 1.8rem;
+	border-radius: 10px;
+	padding: 10px;
+	width: 100px;
+	color: white;
+	text-align: center;
+}
+
+nav ul .about-nav {
+	background-color: #5ED3EB;
+	font-size: 1.8rem;
+	border-radius: 10px;
+	padding: 10px;
+	width: 150px;
+	color: white;
+	text-align: center;
+}
+
+nav ul .involved-nav {
+	background-color: #FFCD69;
+	font-size: 1.8rem;
+	word-wrap: break-word;
+	border-radius: 10px;
+	padding: 10px;
+	width: 100px;
+	color: white;
+	text-align: center;
+}
+
+.park-beauty {
+	background-color: #DDB9A3;
+	margin: 10%;
+	font-size: 2rem;
+}
+	section p {
+		font-size: 2rem;
+	}
+
+
+footer {
+	background-color: #F9E7DC;
+	
+}
